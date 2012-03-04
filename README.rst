@@ -12,7 +12,7 @@ Usage
 Setup is super simple::
 
     from flask import Flask
-    from flaskext.googlefed import GoogleAuth
+    from flask_googlefed import GoogleAuth
 
     app = Flask(__name__)
     app.config['GOOGLE_DOMAIN'] = 'heroku.com'
