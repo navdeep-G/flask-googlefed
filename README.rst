@@ -40,4 +40,3 @@ TODO
 Be forewarned, there's work to be done:
 
 - ``g.user`` is always ``None``
-- More generic Google auth would be nice.
