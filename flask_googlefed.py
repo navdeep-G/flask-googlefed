@@ -63,12 +63,10 @@ class GoogleAuth(object):
         """
         session['openid'] = resp.identity_url
         return redirect(self.oid.get_next_url())
-        # return self.oid.after_login(f(resp))
 
     def _logout(self):
         session.pop('openid', None)
         return redirect(self.oid.get_next_url())
-
 
     def _get_blueprint(self, name):
           return Blueprint(
