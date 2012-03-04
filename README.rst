@@ -29,7 +29,7 @@ Setup is super simple::
 Install
 -------
 
-Installation ::
+Installation is equally simple::
 
     $ pip install flask-googlefed
 
