@@ -1,5 +1,5 @@
-Google Federated Auth for Flask
-===============================
+Google Federated Auth for Flask (and Humans)
+============================================
 
 Require an account from a given Google Apps domain for your Flask apps.
 
