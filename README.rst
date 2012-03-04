@@ -1,9 +1,10 @@
 Google Federated Auth for Flask
 ===============================
 
-Require an account from a given Google Apps domain for your Flasks apps.
+Require an account from a given Google Apps domain for your Flask apps.
 
 Great for internal apps on public-facing servers.
+
 
 Usage
 -----
@@ -24,10 +25,11 @@ Setup is super simple::
     def secret():
         return 'ssssshhhhh'
 
+
 Install
 -------
 
-::
+Installation ::
 
     $ pip install flask-googlefed
 
