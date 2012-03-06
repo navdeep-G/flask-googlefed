@@ -15,7 +15,7 @@ Setup is super simple::
     from flask_googlefed import GoogleAuth
 
     app = Flask(__name__)
-app.secret_key = 'ssssshhhhh'
+    app.secret_key = 'random secret key'
     app.config['GOOGLE_DOMAIN'] = 'heroku.com'
 
     auth = GoogleAuth(app)
