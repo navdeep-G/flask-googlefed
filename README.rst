@@ -38,7 +38,7 @@ Prerequisites
 -------------
 Be sure that your Google Apps domain is enabled to be an OpenID provider under 'Advanced tools' > 'Federated Login using OpenID'
 
-Also, create the required federation end points on your domain. [See example](http://jeremiahlee.com/blog/2009/09/28/how-to-setup-openid-with-google-apps/).
+Also, create the required federation end points on your domain. `See example <http://jeremiahlee.com/blog/2009/09/28/how-to-setup-openid-with-google-apps/>`_.
 
 TODO
 ----
