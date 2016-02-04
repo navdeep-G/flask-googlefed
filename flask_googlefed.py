@@ -14,7 +14,7 @@ from flask import (
     Blueprint, session, request, _request_ctx_stack, redirect,
     url_for, g)
 
-from flaskext.openid import OpenID
+from flask_openid import OpenID
 
 # Just a little context.
 current_dir = os.path.dirname(__file__)

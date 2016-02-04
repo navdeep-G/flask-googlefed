@@ -17,7 +17,7 @@ setup(
     platforms='any',
     install_requires=[
         'Flask',
-        'Flask-OpenID'
+        'Flask-OpenID==1.1.1'
     ],
     classifiers=[
         'Environment :: Web Environment',
